@@ -8,10 +8,29 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <style>
+      #header{
+        color: rgb(11, 52, 128);
+        background-color:rgb(149, 149, 221);
+      }
+      #download{
+        color: cornflowerblue;
+        background-color: burlywood;
+      }
+      .nav{
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+      a{
+        text-decoration: none;
+      }
+      
+     
+    </style>
   </head>
   <body>
 
-    <header>
+    <header id="header">
       <i class="fa fa-user-circle-o" aria-hidden="true"
         >&nbsp;&nbsp;Niketan Thombare</i
       >
@@ -25,16 +44,16 @@
       >
       &nbsp;&nbsp;&nbsp;
     <a href="assets/Niketan_Thombare_CV.pdf" download>
-      <button class="fa fa-download">download resume</button>
+      <button id="download" class="fa fa-download">download resume</button>
     </a>
   </header>
     <br />
-    <nav>
-      <a href="home.html" target="myframe">HOME</a>
+    <nav class="nav">
+      <a href="home.html" target="myframe">home</a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="techStack.html" target="myframe">TECHSTACK</a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="project.html" target="myframe">PROJECT</a>
+      <a href="project.html" target="myframe">Project</a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="education.html" target="myframe">EDUCATION</a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -45,21 +64,24 @@
       <iframe
         src="home.html"
         frameborder="0"
-        width="500px"
+        width="700px"
         height="350px"
         name="myframe"
       ></iframe>
     </div>
+    <br>
+    <br>
     <footer>
       <span><b>Fallow Me</b></span>
       &nbsp;&nbsp;&nbsp;
-      <a href=""><i class="fa fa-github" aria-hidden="true" ></i></a>
+      <a href=""><i class="fa fa-2x fa-github" aria-hidden="true" ></i></a>
       &nbsp;&nbsp;&nbsp;
-     <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+     <a href=""><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
      &nbsp;&nbsp;&nbsp;
-     <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+     <a href=""><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
      &nbsp;&nbsp;&nbsp;
-     <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+     <a href=""><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
+     <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
     </footer>
   </body>
 </html>
