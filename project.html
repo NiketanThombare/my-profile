@@ -1,36 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Details</title>
     <style>
-      h2{
-        color:rgb(164, 41, 62);
-        background-color:rgb(230, 165, 176);
+      h2 {
+        color: rgb(164, 41, 62);
+        background-color: rgb(230, 165, 176);
         letter-spacing: 1px;
-      word-spacing: spacing 2px;
-      text-shadow: 2px 2px #ff0000;
+        word-spacing: spacing 2px;
+        text-shadow: 2px 2px #ff0000;
+      }
+      .responsibility li {
+        margin-bottom: 10px;
+        background-color: lightgray;
+      }
+      .details{
+        margin-right: 5px;
+        font-weight: bolder;
+      }
+      #description{
+        text-align: justify;
+      }
+      #environment{
+        background-color: tomato;
       }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h2>Project Details</h2>
-    <hr>
-    <p><b>Name</b> :<b><u>Student Management</u></b> </p>
-  <p><strong><u>Environment:</u></strong>&nbsp;&nbsp;<mark>Angular 8,TypeScript,JavaScript(ES6),HTML5,CSS,Bootstrap,Github,Desktop Github, Agile and JIRA, IDE-VSCode</mark></p>
+    <hr />
+    <p><span class="details">Name :</span><b>Student Management</b></p>
+    <p>
+      <span class="details">Environment :</span><span id="environment">Angular 8,TypeScript,JavaScript(ES6),HTML5,CSS,Bootstrap,Github,Desktop,Github, Agile and JIRA, IDE-VSCode</span>
 
-  <p><b>Team size:</b>&nbsp;&nbsp;06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Duration:</b>&nbsp;&nbsp;<i>2021-1<sup>st</sup>-Jul till <u>present</u></i></p>
+    </p>
 
-  <p><strong>Project Description:</strong>&nbsp;This project is mainly used for student management in colleges,&nbsp;where It help to manage student record like <br>student registration,&nbsp;student update information and to see all his or her academic activities like score card, attendence.</p>
-  <hr>
-  <h4>Roles and Responsibilities:</h4>
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designed and implimented the user interface using <b>HTML 5</b> and <b>CSS</b><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Work closely with backend developers for code integration<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Identifying and troubleshooting issues with front end code<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Worked on GIT as a version control Used JIRA for bug tracking<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Implimented project using Agilr SCRUM methodology, Involve in daily stand up meetings, spring showcase and sprint retrospective<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;involved in fixing technical issues</p>
-  <hr>
-</body>
+    <p><span class="details">Team size :</span>06 &nbsp;
+      <span class="details">Duration :</span> 2021-1<sup>st</sup>-Jul till present</p>
+
+    <p id="description">
+      <span class="details">Project Description :</span>This project is mainly used for student management in
+      colleges,where It help to manage student record like student
+      registration,student update information and to see all his or her academic
+      activities like score card, attendence.
+    </p>
+    <hr />
+
+    <h4>Roles and Responsibilities:</h4>
+    
+    <ul class="responsibility">
+      <li>
+        Designed and implimented the user interface using <b>HTML 5</b> and
+        <b>CSS</b>
+      </li>
+      <li>Work closely with backend developers for code integration</li>
+      <li>Identifying and troubleshooting issues with front end code</li>
+      <li>Worked on GIT as a version control Used JIRA for bug tracking</li>
+      <li>
+        Implimented project using Agilr SCRUM methodology, Involve in daily
+        stand up meetings, spring showcase and sprint retrospective
+      </li>
+      <li>involved in fixing technical issues</li>
+    </ul>
+  </body>
 </html>

@@ -1,59 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>personal Details</title>
     <style>
-        table,tr,th,td {
-            border: 2px solid blue;
-            border-collapse: collapse;
-            
-        }
-        .heading{
-        color:rgb(164, 41, 62);
-        background-color:rgb(230, 165, 176);
-        letter-spacing: 1px;
-      word-spacing: spacing 2px;
-      text-shadow: 2px 2px #ff0000;
+      table,
+      th,
+      td {
+        border: 2px solid blue;
+        border-collapse: collapse;
+        text-align: center;
+    
       }
+      table{
+        width: 100%;
+  
+      }
+      th{
+        height: 50px;
+        color: deepskyblue;
+      }
+      td{
+        height: 30px;
+      }
+      tr:nth-child(even){
+        background-color: lightgray;
+      }
+      
+      .heading {
+        color: rgb(164, 41, 62);
+        background-color: rgb(230, 165, 176);
+        letter-spacing: 1px;
+        word-spacing: spacing 2px;
+        text-shadow: 2px 2px #ff0000;
+      }
+      
     </style>
-</head>
-<body>
- 
-
- 
+  </head>
+  <body>
     <h2 class="heading">Academic Details</h2>
     <table>
-        <thead>
-<tr>
-    <th>Sr.No</th>
-    <th>Academic</th>
-    <th>College Name</th>
-    <th>University/board</th>
-</tr>
-        </thead>
-        <tbody>
-                 <tr>
-                    <td>1</td>
-                    <td>graduation</td>
-                    <td>COEP College</td>
-                    <td>Pune University</td>
-                 </tr>
-                 <tr>
-                    <td>2</td>
-                    <td>HSC</td>
-                    <td>The Lexicon Int. School</td>
-                    <td>MDB</td>
-                 </tr>
-                 <tr>
-                    <td>3</td>
-                    <td>SSC</td>
-                    <td>Indus Int. School</td>
-                    <td>MDB</td>
-                 </tr>
-                 
-        </tbody>
+      <thead>
+        <tr>
+          <th>Sr.No</th>
+          <th>Academic</th>
+          <th>College Name</th>
+          <th>University/board</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>graduation</td>
+          <td>COEP College</td>
+          <td>Pune University</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>HSC</td>
+          <td>The Lexicon Int. School</td>
+          <td>MDB</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>SSC</td>
+          <td>Indus Int. School</td>
+          <td>MDB</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>7th</td>
+            <td>ZPUP</td>
+            <td>MDB</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>8th</td>
+            <td>SVB School</td>
+            <td>MDB</td>
+          </tr>
+      </tbody>
     </table>
-</body>
+  </body>
 </html>

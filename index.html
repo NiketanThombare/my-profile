@@ -9,57 +9,66 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <style>
-      #header{
-        color: black;
-        background-color:#f18973;
-      
+
+      header {
+        color: white;
+        background-color: purple;
       }
-      #download{
-        color:whitesmoke;
-        background-color:#a2b9bc;
+      .headerContaint {
+        margin-right: 20px;
       }
-      .nav{
+
+      .nevigation a{
         text-transform: uppercase;
         text-decoration: none;
+        margin-right: 20px;
       }
-      a{
-        text-decoration: none;
+
+      #download{
+        background-color: purple;
+        color: white;
       }
+    
+      .footerArea a{
+        margin-right: 20px;
       
-     
+      }
+      .nevigation{
+        background-color: lightgray;
+        color: grey;
+      }
     </style>
   </head>
   <body>
+    <header>
+      <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+      <span class="headerContaint">Niketan Thombare</span>
 
-    <header id="header">
-      <i class="fa fa-user-circle-o" aria-hidden="true"
-        >&nbsp;&nbsp;Niketan Thombare</i
-      >
-      &nbsp;&nbsp;&nbsp;
-      <i class="fa fa-phone-square" aria-hidden="true"
-        >&nbsp;&nbsp;8888625141</i
-      >
-      &nbsp;&nbsp;&nbsp;
-      <i class="fa fa-envelope-o" aria-hidden="true"
-        >&nbsp;&nbsp;nickthombare@gmail.com</i
-      >
-      &nbsp;&nbsp;&nbsp;
-    <a href="assets/Niketan_Thombare_CV.pdf" download>
-      <button id="download" class="fa fa-download">download resume</button>
-    </a>
-  </header>
-    <br />
-    <nav class="nav">
+      <i class="fa fa-phone-square" aria-hidden="true"></i>
+      <span class="headerContaint">8888625141</span>
+
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+      <span class="headerContaint">nickthombare@gmail.com</span>
+
+      <a href="assets/Niketan_Thombare_CV.pdf" download>
+        <button id="download" class="fa fa-download">download resume</button>
+      </a>
+    </header>
+    <br/>
+    <nav class="nevigation">
+
       <a href="home.html" target="myframe">home</a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
       <a href="techStack.html" target="myframe">TECHSTACK</a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
       <a href="project.html" target="myframe">Project</a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
       <a href="education.html" target="myframe">EDUCATION</a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
       <a href="aboutMe.html" target="myframe">ABOUT ME</a>
+
     </nav>
+
     <br />
     <div>
       <iframe
@@ -70,19 +79,25 @@
         name="myframe"
       ></iframe>
     </div>
-    <br>
-    <br>
-    <footer>
+    <br />
+    <br />
+    <footer class="footerArea">
       <span><b>Fallow Me</b></span>
-      &nbsp;&nbsp;&nbsp;
-      <a href=""><i class="fa fa-2x fa-github" aria-hidden="true" ></i></a>
-      &nbsp;&nbsp;&nbsp;
-     <a href=""><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
-     &nbsp;&nbsp;&nbsp;
-     <a href=""><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
-     &nbsp;&nbsp;&nbsp;
-     <a href=""><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
-     <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
+      <a href=""><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
+
+      <a href=""
+        ><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i
+      ></a>
+
+      <a href=""><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+
+      <a href=""
+        ><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i
+      ></a>
+      <p>
+        Copyright &copy; 2023 Zoom Video Communications, Inc. All rights
+        reserved.
+      </p>
     </footer>
   </body>
 </html>

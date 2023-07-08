@@ -1,71 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>personal Details</title>
     <style>
-        table,tr,th,td {
-            border: 2px solid blue;
-            border-collapse: collapse;
-            background-color: rgb(159, 196, 184);
-        }
-        h2{
-            color:rgb(164, 41, 62);
-        background-color:rgb(230, 165, 176);
+      table,
+      tr,
+      th,
+      td {
+        border: 2px solid blue;
+        border-collapse: collapse;
+        background-color: lightgray;
+        text-align: center;
+      }
+      table {
+        width: 100%;
+      }
+      th {
+        height: 50px;
+        color: deepskyblue;
+      }
+      td {
+        height: 30px;
+      }
+      tr:nth-child(even) {
+        background-color: lightgray;
+      }
+      h2 {
+        color: rgb(164, 41, 62);
+        background-color: rgb(230, 165, 176);
         letter-spacing: 1px;
-      word-spacing: spacing 2px;
-      text-shadow: 2px 2px #ff0000;
-        }
+        word-spacing: spacing 2px;
+        text-shadow: 2px 2px #ff0000;
+      }
+      .strongContaint {
+        margin-right: 5px;
+      }
+      .TechnologyStack li {
+        margin-bottom: 10px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h2>My Personal Details</h2>
-    <img src="assets/web-developer-img.png" width="200px" height="200px" >
-    <p><strong>Name :</strong>Niketan Thombare</p>
+    <img src="assets/web-developer-img.png" width="200px" height="200px" />
+    <p><strong class="strongContaint">Name :</strong>Niketan Thombare</p>
     <h2>Contact Details</h2>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Mobile : </strong>8888625141 <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Email : <strong>nickthombare@gmail.com</p>
-    <hr>
+    <p><strong class="strongContaint">Mobile :</strong>8888625141</p>
+    <p>
+      <strong class="strongContaint">Email :</strong>nicksthombare@gmail.com
+    </p>
+    <hr />
     <h2>My Technology Stack</h2>
-    <ul>
-        <li>HTLM5</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Angular</li>
+    <ul class="TechnologyStack">
+      <li>HTLM5</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Angular</li>
     </ul>
-    <hr>
+    <hr />
     <h2>Academic Details</h2>
     <table>
-        <thead>
-<tr>
-    <th>Sr.No</th>
-    <th>Academic</th>
-    <th>College Name</th>
-    <th>University/board</th>
-</tr>
-        </thead>
-        <tbody>
-                 <tr>
-                    <td>1</td>
-                    <td>graduation</td>
-                    <td>COEP College</td>
-                    <td>Pune University</td>
-                 </tr>
-                 <tr>
-                    <td>2</td>
-                    <td>HSC</td>
-                    <td>The Lexicon Int. School</td>
-                    <td>MDB</td>
-                 </tr>
-                 <tr>
-                    <td>3</td>
-                    <td>SSC</td>
-                    <td>Indus Int. School</td>
-                    <td>MDB</td>
-                 </tr>
-                 
-        </tbody>
+      <thead>
+        <tr>
+          <th>Sr.No</th>
+          <th>Academic</th>
+          <th>College Name</th>
+          <th>University/board</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>graduation</td>
+          <td>COEP College</td>
+          <td>Pune University</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>HSC</td>
+          <td>The Lexicon Int. School</td>
+          <td>MDB</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>SSC</td>
+          <td>Indus Int. School</td>
+          <td>MDB</td>
+        </tr>
+      </tbody>
     </table>
-</body>
+  </body>
 </html>
