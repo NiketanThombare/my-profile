@@ -9,33 +9,42 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <style>
-
       header {
-        color: white;
-        background-color: purple;
+        color: #191654;
+        background-color: #43c6ac;
       }
       .headerContaint {
         margin-right: 20px;
       }
 
-      .nevigation a{
+      .nevigation a {
         text-transform: uppercase;
         text-decoration: none;
         margin-right: 20px;
+        width: 100px;
       }
 
-      #download{
+      #download {
         background-color: purple;
         color: white;
       }
-    
-      .footerArea a{
-        margin-right: 20px;
-      
+
+      .nevigation {
+        background-color: #9cecfb;
+        color: #636fa4;
       }
-      .nevigation{
-        background-color: lightgray;
-        color: grey;
+      .navList li {
+        display: inline-block;
+      }
+      footer ul li{
+        display: inline-block;
+        margin: 0px 10px;
+      }
+      footer ul{
+        display: inline-block;
+        padding-inline-start: 0px;
+        margin: 0px;
+        
       }
     </style>
   </head>
@@ -54,22 +63,15 @@
         <button id="download" class="fa fa-download">download resume</button>
       </a>
     </header>
-    <br/>
     <nav class="nevigation">
-
-      <a href="home.html" target="myframe">home</a>
-
-      <a href="techStack.html" target="myframe">TECHSTACK</a>
-
-      <a href="project.html" target="myframe">Project</a>
-
-      <a href="education.html" target="myframe">EDUCATION</a>
-
-      <a href="aboutMe.html" target="myframe">ABOUT ME</a>
-
+      <ul class="navList">
+        <li><a href="home.html" target="myframe">home</a></li>
+        <li><a href="techStack.html" target="myframe">TECHSTACK</a></li>
+        <li><a href="project.html" target="myframe">Project</a></li>
+        <li><a href="education.html" target="myframe">EDUCATION</a></li>
+        <li><a href="aboutMe.html" target="myframe">ABOUT ME</a></li>
+      </ul>
     </nav>
-
-    <br />
     <div>
       <iframe
         src="home.html"
@@ -81,23 +83,30 @@
     </div>
     <br />
     <br />
-    <footer class="footerArea">
+    <footer>
       <span><b>Fallow Me</b></span>
-      <a href=""><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
-
-      <a href=""
-        ><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i
-      ></a>
-
-      <a href=""><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
-
-      <a href=""
-        ><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i
-      ></a>
-      <p>
-        Copyright &copy; 2023 Zoom Video Communications, Inc. All rights
-        reserved.
-      </p>
+      <ul>
+        <li>
+          <a href=""><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href=""
+            ><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href=""
+            ><i class="fa fa-2x fa-instagram" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href=""
+            ><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+      <p>Copyright &copy; 2023 Zoom Video Communications, Inc. All rights
+        reserved.</p>
     </footer>
   </body>
 </html>
