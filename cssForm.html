@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      label {
+        font-family: "Poppins", sans-serif;
+        color: cadetblue;
+      }
+      h2{
+        font-family: "Roboto", sans-serif;
+     
+      }
+      #submitButton{
+        border-radius: 10px;
+        font-family: "Poppins", sans-serif;
+      }
+      input[type="text"]{
+        width: 200px;
+        border-radius: 5px;
+        padding: 5px;
+        color: aquamarine;
+        font-weight: bolder;
+        font-size: larger;
+        text-transform: uppercase;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h2>Details Form</h2>
+    <table>
+      <tbody>
+        <form>
+          <tr>
+            <td><label>user name</label></td>
+            <td><input type="text"></td>
+              
+          </tr>
+          <tr>
+            <td><label>email</label></td>
+            <td>
+              <input type="email" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><button type="submit" id="submitButton">submit</button></td>
+          </tr>
+        </form>
+      </tbody>
+    </table>
+  </body>
+</html>

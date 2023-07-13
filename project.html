@@ -4,21 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Details</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&family=Signika+Negative&family=Sofia&display=swap" rel="stylesheet">
+
     <style>
       h2 {
-        color: rgb(164, 41, 62);
+        color: rgb(198, 29, 57);
         background-color: rgb(230, 165, 176);
         letter-spacing: 1px;
         word-spacing: spacing 2px;
-        text-shadow: 2px 2px #ff0000;
+        text-shadow: 1px 1px #bfaeae;
+        font-family: 'Poppins', sans-serif;
       }
       .responsibility li {
         margin-bottom: 10px;
         background-color: lightgray;
+        font-family: 'Signika Negative', sans-serif;
       }
       .details{
         margin-right: 5px;
         font-weight: bolder;
+        font-family: 'Roboto', sans-serif;
       }
       #description{
         text-align: justify;
@@ -26,29 +34,36 @@
       #environment{
         background-color: tomato;
       }
+      .value{
+        font-family: 'Signika Negative', sans-serif;
+      }
+      
     </style>
   </head>
   <body>
     <h2>Project Details</h2>
     <hr />
-    <p><span class="details">Name :</span><b>Student Management</b></p>
+    <p><span class="details">Name :</span> <span class="value"><b>Student Management</b></span></p>
     <p>
-      <span class="details">Environment :</span><span id="environment">Angular 8,TypeScript,JavaScript(ES6),HTML5,CSS,Bootstrap,Github,Desktop,Github, Agile and JIRA, IDE-VSCode</span>
+      <span class="details">Environment :</span><span id="environment" class="value">Angular 8,TypeScript,JavaScript(ES6),HTML5,CSS,Bootstrap,Github,Desktop,Github, Agile and JIRA, IDE-VSCode</span>
 
     </p>
 
-    <p><span class="details">Team size :</span>06 &nbsp;
-      <span class="details">Duration :</span> 2021-1<sup>st</sup>-Jul till present</p>
+    <p><span class="details">Team size :</span>
+      <span class="value">06</span> 
+      <span class="details">Duration :</span>
+       <span class="value">2021-1<sup>st</sup>-Jul till present</span></p>
 
     <p id="description">
-      <span class="details">Project Description :</span>This project is mainly used for student management in
-      colleges,where It help to manage student record like student
-      registration,student update information and to see all his or her academic
-      activities like score card, attendence.
+      <span class="details">Project Description :</span>
+      <span class="value">This project is mainly used for student management in
+        colleges,where It help to manage student record like student
+        registration,student update information and to see all his or her academic
+        activities like score card, attendence.</span>
     </p>
     <hr />
 
-    <h4>Roles and Responsibilities:</h4>
+    <h2>Roles and Responsibilities:</h2>
     
     <ul class="responsibility">
       <li>
