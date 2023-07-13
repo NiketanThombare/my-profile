@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample card</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&family=Signika+Negative&display=swap" rel="stylesheet">
+    <style>
+      .photo-section {
+        display: inline-block;
+      }
+      .containt-section {
+        display: inline-block;
+      }
+      .containt-section ul li{
+        padding: 10px;
+        list-style-type: none;
+        font-family: 'Signika Negative', sans-serif;
+        
+      }
+      .containt-section ul li:hover{
+        color: cornflowerblue;
+        background-color: bisque;
+      }
+      .containt-section ul li::before{
+        content:"✍️";
+      }
+      .containt-section h2{
+        font-family: 'Poppins', sans-serif;
+        background-color:white;
+        color: rgb(47, 47, 173);
+        border: 2px solid black;
+        border-radius: 10px;
+        text-align: center;
+      }
+    
+      #setting{
+             margin-left: 80px;   
+      }
+      body{
+        background-color:rgb(186, 245, 248);
+      }
+      .footerSection span{
+        margin: 5px;
+      }
+  
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="photo-section">
+        <img
+          src="assets/web-dev-2.jpg"
+          alt="web developer"
+          width="300px"
+          height="300px"
+        />
+                  <p id="setting"><i class="fa  fa-cog" aria-hidden="true"></i>
+                <span><small>Powerred by</small><br>JSoftwareLabs</span></p>
+        
+              
+      </div>
+      <div class="containt-section">
+        <h2>Compare Text Online</h2>
+        <ul>
+          <li>Compare Text online free</li>
+          <li>Supports large file comparison</li>
+          <li>Ignore order and namespaces</li>
+          <li>Side by side diff view</li>
+          <li>get results in tabular format for quick refference</li>
+          <li>TEXT diff tool</li>
+          <li>REST API</li>
+        </ul>
+      </div>
+      <footer class="footerSection">
+        <span>Fallow Me</span>
+        <span><a href=""><i class="fa fa-github"></i></a></span> 
+        <span><a href="" ><i class="fa fa-linkedin-square"></i></a></span>
+        <span><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+        <span> <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
+           
+
+      </footer>
+    </div>
+  </body>
+</html>

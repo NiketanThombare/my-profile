@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>discount calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&family=Signika+Negative&family=Sofia&display=swap" rel="stylesheet">
+
+    <style>
+h1,p,label,input[type="number"]{
+    font-family: 'Poppins', sans-serif;
+    color: cadetblue;
+    margin-bottom: 10px;
+   
+}
+p{
+    margin-top: 0%;
+}
+.division{
+    width: 50%;
+}
+#calculate{
+    background-color: #4caf50;
+    
+}
+#calculate,input[type="number"]{
+   
+    width: 70%;
+}
+    </style>
+</head>
+<body class="division">
+    <div>
+    <h1>Discount Calculator</h1>
+    <p>Enter the Bill amount and discount in percentage</p>
+    <form action="">
+        <label>Bill Amount</label>
+        <br>
+        <input type="number">
+        <br>
+        <label>Discount Percentage</label>
+        <br>
+            <input type="number">
+        <br>
+       <button id="calculate" type="submit"><span >Calculate</span></button>
+       <p>Total Discount Amount</p>
+    </form>
+</div>
+</body>
+</html>
