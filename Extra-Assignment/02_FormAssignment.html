@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login form</title>
+    <style>
+        .container{
+            height: 700px;
+            width: 1600px;
+            border: 2px solid red;
+            
+        }
+        .img{
+            height: 700px;
+            width: 1600px;
+        }
+        .div2{
+            border: 2px solid transparent ;
+            width: 400px;
+            height: 600px;
+            position: absolute;
+            top: 55px;
+            left: 600px;
+            box-shadow: 5px 5px 20px 1px #1D1C1C, -5px -5px 20px 1px #1D1C1C;
+            
+    
+
+        }
+        h2{
+            text-align: center;
+            color: white;
+        }
+        .inp{
+            display:block;
+            width: 350px;
+            height: 35px;
+            position: relative;
+            left: 25px;
+            margin-bottom: 15px;
+        }
+        .login-btn{
+            width: 350px;
+            height: 35px;
+            background-color: rgb(55, 55, 241);
+            position: relative;
+            left: 25px;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        .pass{
+            position: relative;
+            left: 25px;
+            color: white;
+        }
+        .orlogin{
+            text-align: center;
+            color: white;
+        }
+        .face{
+            width: 160px;
+            height: 35px;
+            position: relative;
+            left: 25px;
+            color: white;
+            background-color:rgb(84, 84, 195);
+           
+        }
+        .insta{
+            width: 160px;
+            height: 35px;
+            position: relative;
+            left: 50px;
+            color: white;
+            background-color: rgb(196, 28, 56);
+        }
+        .dont{
+          text-align: center;
+          color: white;
+          font-size: 1.3rem
+        }
+        a{
+            color: blue;
+            font-size: 1.3rem;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- this div is use for background  -->
+    <div class="container">  
+        <img src="../assets/WhatsApp Image 2023-07-21 at 6.38.30 PM.jpeg" alt="background image" class="img">
+      <div class="div2">
+        <h2>Login Form</h2>
+
+        <input type="text" required placeholder="Email or phone" class="inp">
+        <input type="password" required placeholder="password" class="inp">
+        <p class="pass">forgot password?</p>
+        <button class="login-btn">login</button>
+
+        <p class="orlogin">or login with</p>
+
+        <button class="face">Facebook</button>
+        <button class="insta">Instagram</button>
+
+        <p class="dont">Don't have account?<a>Signup Now</a></p>
+      </div>
+    </div>
+  </body>
+</html>
