@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice Assignment1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+.headerContaint{
+     font-size: larger;
+     font-weight: bolder;
+     margin-right: 20px;
+     background-color: rgb(164, 226, 228);
+}
+           
+.navList li{
+    display: inline-block;
+   
+   
+   
+}
+.navList a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding-inline-start: 0px;
+    background-color: red;
+    color: whitesmoke;
+}
+.navList{
+    padding-inline-start: 0px;
+}
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+        <span class="headerContaint">Niketan Thombare</span>
+  
+        <i class="fa fa-phone-square" aria-hidden="true"></i>
+        <span class="headerContaint">8888625141</span>
+  
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <span class="headerContaint">nickthombare@gmail.com</span>
+  
+        <a href="assets/Niketan_Thombare_CV.pdf" download>
+          <button id="download" class="fa fa-download">download resume</button>
+        </a>
+      </header>
+
+      <nav class="nevigation">
+        <ul class="navList">
+          <li><a href="home.html" target="myframe">home</a></li>
+          <li><a href="techStack.html" target="myframe">TECHSTACK</a></li>
+          <li><a href="project.html" target="myframe">Project</a></li>
+          <li><a href="education.html" target="myframe">EDUCATION</a></li>
+          <li><a href="aboutMe.html" target="myframe">ABOUT ME</a></li>
+        </ul>
+      </nav>
+  <div>
+      <iframe src="home.html" frameborder="0" width="800px" height="500px" name="myFrame"></iframe>
+    </div>
+
+    <footer>
+        <span><b>Fallow Me</b></span>
+        <ul>
+          <li>
+            <a href=""><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa fa-2x fa-instagram" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+        <p>Copyright &copy; 2023 Zoom Video Communications, Inc. All rights
+          reserved.</p>
+      </footer>
+    </body>
+</html>
